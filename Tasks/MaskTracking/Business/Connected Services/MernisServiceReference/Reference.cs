@@ -12,7 +12,7 @@ namespace MernisServiceReference
     
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.ServiceModel.ServiceContractAttribute(Namespace="http://tckimlik.nvi.gov.tr/WS", ConfigurationName="ServiceReference1.KPSPublicSoap")]
+    [System.ServiceModel.ServiceContractAttribute(Namespace="http://tckimlik.nvi.gov.tr/WS", ConfigurationName="MernisServiceReference.KPSPublicSoap")]
     public interface KPSPublicSoap
     {
         
