@@ -1,6 +1,5 @@
 ﻿
 
-using Business.Abstract;
 using Business.Concrete;
 using Entities.Concrete;
 
@@ -60,6 +59,7 @@ using Entities.Concrete;
 //{
 //    Console.WriteLine(sehir);
 //}
+
 PttManager pttManager = new PttManager(new PersonManager());
 
 Person person = new Person
