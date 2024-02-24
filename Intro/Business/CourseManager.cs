@@ -1,4 +1,7 @@
-﻿using System;
+﻿using Intro.DataAccess.Abstracts;
+using Intro.DataAccess.Concretes;
+using Intro.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,8 +12,17 @@ namespace Intro.Business;
 
 public class CourseManager
 {
-    public void GetAll()
+    private readonly ICourseDal _courseDal;
+    public CourseManager(ICourseDal courseDal)
     {
-        Console.WriteLine("Kurslar listelendi");
+        _courseDal = courseDal;
+    }
+    public List<Course> GetAll()
+    {
+        //busines rull
+        // iş kurallarından sonra
+
+        return _courseDal.GetAll();
+        
     }
 }
